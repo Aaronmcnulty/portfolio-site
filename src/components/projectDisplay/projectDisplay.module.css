@@ -1,19 +1,20 @@
 
-.homeContainer{
+.projectDisplayContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: aliceblue;
     width:90%;
     height: 90svh;
 }
 
-.introHeading{
-    font-size: xx-large;
+.headingContainer{
     text-align: center;
 }
 
-.welcomeHeading{
-    font-size: larger;
-    text-align: center;
+.projectsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
 }

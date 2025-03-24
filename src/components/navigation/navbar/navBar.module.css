@@ -5,6 +5,8 @@
     align-items: center;
     background-color: white;
     padding: 0px 1em 0px 1em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 a{
