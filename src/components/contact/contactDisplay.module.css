@@ -5,9 +5,13 @@
     background-color: aliceblue;
     width:100%;
     height: 85svh; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .mainHeading{
+    color:black;
+    font-family: "Be Vietnam Pro", sans-serif;
     text-align: center;
     font-size: xx-large;
 }
