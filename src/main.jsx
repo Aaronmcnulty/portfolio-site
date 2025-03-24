@@ -5,9 +5,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import ProjectDisplay from './components/projectDisplay/ProjectDisplay.jsx'
 import AboutMeSection from './components/aboutMe/AboutMeSection.jsx'
-import HomeDisplay from './components/home/homeDisplay.jsx'
+import HomeDisplay from './components/home/homeDisplay/HomeDisplay.jsx'
 import ContactDisplay from './components/contact/ContactDisplay.jsx'
-import ErrorPage from './components/navigation/ErrorElement.jsx'
+import ErrorPage from './components/navigation/errorElement/ErrorElement.jsx'
 
 const router = createBrowserRouter([
   {

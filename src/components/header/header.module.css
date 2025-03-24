@@ -5,3 +5,7 @@
    width: 100%;
    justify-content: space-between;
 }
+
+.logoContainer{
+   padding-left: 1em;
+}

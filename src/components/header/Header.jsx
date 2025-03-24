@@ -5,7 +5,7 @@ function Header(){
 
     return(
         <div className={styles.headerContainer}>
-            <div className="logo-container">
+            <div className={styles.logoContainer}>
                 <p>logo</p>
             </div>
             <NavBar />
