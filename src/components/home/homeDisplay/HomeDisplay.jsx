@@ -4,7 +4,12 @@ function HomeDisplay(){
 
     return(
         <div className={styles.homeContainer} >
-            <p>Home</p>
+            <h1 className={styles.introHeading}>
+                Hello, I'm Aaron.
+            </h1>
+            <h2 className={styles.welcomeHeading}>
+                Welcome to my portfolio...
+            </h2>
         </div>
     )
 }

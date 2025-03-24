@@ -1,7 +1,6 @@
 
 
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -10,7 +9,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: wheat;
+  background-color: rgb(46, 37, 21);
 }
 
 h1 {
