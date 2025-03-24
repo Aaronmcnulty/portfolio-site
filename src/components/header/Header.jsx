@@ -1,9 +1,13 @@
+import NavBar from "../navigation/NavBar";
 
 function Header(){
 
     return(
-        <div className="header">
-            
+        <div className="header-container">
+            <NavBar />
+            <div className="logo-container">
+                <p>logo</p>
+            </div>
         </div>
     )
 

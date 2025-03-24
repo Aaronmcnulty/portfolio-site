@@ -3,14 +3,14 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
+import ProjectDisplay from './components/projectDisplay/ProjectDisplay.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
-      { path: "spinach", element: <Spinach /> },
-      { path: "popeye", element: <Popeye /> },
+      { path: "projects", element: <ProjectDisplay /> }
     ],
   },
 ]);
