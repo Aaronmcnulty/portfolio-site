@@ -4,13 +4,15 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import ProjectDisplay from './components/projectDisplay/ProjectDisplay.jsx'
+import AboutMeSection from './components/aboutMe/AboutMeSection.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
-      { path: "projects", element: <ProjectDisplay /> }
+      { path: "projects", element: <ProjectDisplay /> },
+      { path: "about", element: <AboutMeSection /> }
     ],
   },
 ]);
