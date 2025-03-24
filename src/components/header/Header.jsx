@@ -6,7 +6,7 @@ function Header(){
     return(
         <div className={styles.headerContainer}>
             <div className={styles.logoContainer}>
-                <p>logo</p>
+                <p>AM</p>
             </div>
             <NavBar />
         </div>

@@ -1,19 +1,19 @@
 
-.homeContainer{
+
+.AboutMeContainer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: aliceblue;
     width:100%;
     height: 85svh;
 }
 
-.introHeading{
+.mainHeading{
     font-size: xx-large;
     text-align: center;
 }
 
-.welcomeHeading{
-    font-size: larger;
+.aboutTextContainer{
+    padding:1em;
     text-align: center;
 }

@@ -2,19 +2,31 @@
 .projectDisplayContainer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: aliceblue;
-    width:90%;
-    height: 90svh;
+    width:100%;
+    height: 85svh;
 }
 
 .headingContainer{
+    font-size: x-small;
     text-align: center;
 }
 
 .projectsContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
     gap: 1em;
+    padding:1em;
+}
+
+.project{
+    border:solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(255, 255, 241);
+    padding:1em;
+    margin:5px;
+    text-align: center;
 }
