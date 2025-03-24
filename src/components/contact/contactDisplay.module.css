@@ -1,19 +1,13 @@
 
-
-.AboutMeContainer{
+.contactContainer{
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
     width:100%;
-    height: 85svh;
+    height: 85svh; 
 }
 
 .mainHeading{
+    text-align: center;
     font-size: xx-large;
-    text-align: center;
-}
-
-.aboutTextContainer{
-    padding:1em;
-    text-align: center;
 }
