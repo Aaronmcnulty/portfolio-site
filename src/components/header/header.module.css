@@ -8,8 +8,9 @@
 }
 
 .logoContainer{
-   padding: 0em 1em 0em 1em;
+   align-self: center;
+   padding:1em;
    background-color: white;
-   border-top-right-radius: 5px;
-   border-bottom-right-radius: 5px;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
 }
