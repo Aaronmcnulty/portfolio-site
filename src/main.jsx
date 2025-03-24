@@ -7,11 +7,13 @@ import ProjectDisplay from './components/projectDisplay/ProjectDisplay.jsx'
 import AboutMeSection from './components/aboutMe/AboutMeSection.jsx'
 import HomeDisplay from './components/home/homeDisplay.jsx'
 import ContactDisplay from './components/contact/ContactDisplay.jsx'
+import ErrorPage from './components/navigation/ErrorElement.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomeDisplay /> },
       { path: "projects", element: <ProjectDisplay /> },
