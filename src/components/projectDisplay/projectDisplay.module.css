@@ -13,9 +13,20 @@
 }
 
 .projectsContainer{
-    align-self: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
     gap: 1em;
     padding:1em;
+}
+
+.project{
+    border:solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(255, 255, 241);
+    padding:1em;
+    margin:5px;
+    text-align: center;
 }

@@ -7,15 +7,54 @@ function ProjectDisplay(){
 
             <div className={styles.headingContainer}>
                 <h1 className={styles.mainHeading}>Projects</h1>
+               
             </div>
 
+
             <div className={styles.projectsContainer}>
-                <div>project 1</div>
-                <div>project 2</div>
-                <div>project 3</div>
-                <div>project 4</div>
-                <div>project 5</div>
-                <div>project 6</div>
+                <div className={styles.project} >
+                    
+                    <div>
+                        <h3>Project 1</h3>
+                        <p>It is a project...</p>
+                    </div>
+                    <img alt="A pic"></img>
+                </div>
+                <div className={styles.project} >
+                <div>
+                        <h3>Project 1</h3>
+                        <p>It is a project...</p>
+                    </div>  
+                    <img alt="A pic"></img>
+                </div>
+                <div className={styles.project} >
+                <div>
+                        <h3>Project 1</h3>
+                        <p>It is a project...</p>
+                    </div>   
+                    <img alt="A pic"></img>
+                </div>
+                <div className={styles.project} >
+                <div>
+                        <h3>Project 1</h3>
+                        <p>It is a project...</p>
+                    </div>   
+                    <img alt="A pic"></img>
+                </div>
+                <div className={styles.project} >
+                <div>
+                        <h3>Project 1</h3>
+                        <p>It is a project...</p>
+                    </div>  
+                    <img alt="A pic"></img>
+                </div>
+                <div className={styles.project} >
+                <div>
+                        <h3>Project 1</h3>
+                        <p>It is a project...</p>
+                    </div>   
+                    <img alt="A pic"></img>
+                </div>
             </div>
         </div>
     )
