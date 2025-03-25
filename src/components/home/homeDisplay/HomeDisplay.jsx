@@ -5,7 +5,7 @@ function HomeDisplay(){
     return(
         <div className={styles.homeContainer} >
             <h1 className={styles.introHeading}>
-                Hello, I'm Aaron.
+                Hello, I'm <span title="Pronounced: ah-run" className={styles.name}>Aaron</span>.
             </h1>
             <h2 className={styles.welcomeHeading}>
                 Welcome to my portfolio...
