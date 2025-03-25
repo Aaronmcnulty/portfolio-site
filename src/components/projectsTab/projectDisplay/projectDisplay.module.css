@@ -10,9 +10,11 @@
 }
 
 .headingContainer{
-    font-size: x-small;
     text-align: center;
+    font-size: x-small;
+    margin: 1em 0em 3em 0em;
 }
+
 
 .projectsContainer{
     display: flex;
@@ -22,13 +24,3 @@
     padding:1em;
 }
 
-.project{
-    border:solid;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-around;
-    background-color:rgb(255, 255, 241);
-    padding:1em;
-    margin:5px;
-    text-align: center;
-}

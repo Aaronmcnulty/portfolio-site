@@ -1,0 +1,30 @@
+
+.projectContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    background-color:rgb(255, 255, 241);
+    padding:1em;
+    margin:5px;
+    text-align: center;
+    border-top: solid;
+}
+
+.projectTitle{
+    grid-column: 1;
+    grid-row: 1;
+    font-size: medium;
+    text-align: center;
+}
+
+.projectDescription{
+    grid-column: 1;
+    grid-row: 2;
+    font-size: small;
+    text-align: center;
+}
+
+.projectImage{
+    grid-row: 2;
+    grid-column: 2;
+}
