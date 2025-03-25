@@ -1,4 +1,8 @@
 
+p{
+    margin: 0px;
+}
+
 .projectContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -6,7 +10,6 @@
     background-color:rgb(255, 255, 241);
     padding:1em;
     margin:5px;
-    text-align: center;
     border-top: solid;
 }
 
@@ -14,17 +17,27 @@
     grid-column: 1;
     grid-row: 1;
     font-size: medium;
-    text-align: center;
 }
 
 .projectDescription{
     grid-column: 1;
     grid-row: 2;
     font-size: small;
-    text-align: center;
+    align-self: center;
 }
 
 .projectImage{
     grid-row: 2;
     grid-column: 2;
 }
+
+@media only screen and (min-width: 600px){
+    .projectTitle{
+       font-size: x-large;
+    }
+
+    .projectDescription{
+        font-size: large;
+        font-weight: 400;
+    }
+ }
