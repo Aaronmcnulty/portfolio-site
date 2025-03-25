@@ -23,6 +23,14 @@ a:active{
 }
 
 .navBarLink{
-    
     padding: 1em 0.5em 1em 0.5em;
+}
+
+@media only screen and (min-width: 600px){
+  
+    a{
+        font-size: x-large;
+        text-decoration: none;
+        color: black;
+    }
 }

@@ -5,6 +5,7 @@
    width: 100%;
    justify-content: space-between;
    margin-bottom: 1em;
+   padding:1em;
 }
 
 .logoContainer{
@@ -13,4 +14,10 @@
    background-color: white;
    border-top-right-radius: 15px;
    border-bottom-right-radius: 15px;
+}
+
+@media only screen and (min-width: 600px){
+   .logoContainer{
+      font-size: x-large;
+   }
 }

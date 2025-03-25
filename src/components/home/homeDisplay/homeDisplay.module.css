@@ -23,3 +23,13 @@
     color: red;
 }
 
+@media only screen and (min-width: 600px){
+    .introHeading{
+        font-size:300%;
+        text-align: center;
+    }  
+
+    .welcomeHeading{
+        font-size:x-large;
+    }
+}

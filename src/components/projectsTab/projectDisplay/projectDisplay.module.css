@@ -11,8 +11,12 @@
 
 .headingContainer{
     text-align: center;
-    font-size: x-small;
     margin: 1em 0em 3em 0em;
+}
+
+.mainHeading{
+    font-size: xx-large;
+
 }
 
 
@@ -24,3 +28,8 @@
     padding:1em;
 }
 
+@media only screen and (min-width: 600px){
+    .mainHeading{
+        font-size: 300%;
+    }
+ }

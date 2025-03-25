@@ -5,7 +5,6 @@ import projects from "../mockProjectData"
 
 function ProjectDisplay(){
 
-    console.log(projects)
 
     return(
         <div className={styles.projectDisplayContainer}>
